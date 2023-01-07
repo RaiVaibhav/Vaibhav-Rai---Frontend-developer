@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  body {
+    margin: 0;
+    padding: 0;
+    @apply font-mono !important;
+  }
+}
+
+.ant-list-items {
+  @apply flex;
+  @apply flex-wrap;
+  @apply gap-8;
+  @apply justify-center;
+  @apply lg:justify-start;
+}
