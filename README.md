@@ -38,3 +38,8 @@ Api (`https://api.spacexdata.com/v3/capsules`) v3 is deprecated in place of v4, 
 ## Best Part
 
 I really like the way I added the blur effect on the spacex logo, to achive it I stacked the same spacex logo on top and on back using absolute positioning and then I blurred the element which on the back.
+
+## What I missed
+
+- Test for the various component
+- Authorization (Decided not to as per the time contraint)
