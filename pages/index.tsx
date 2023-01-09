@@ -19,8 +19,8 @@ export default function Home() {
           id="home"
           className="h-screen items-center justify-center flex gap-4 flex-col backdrop-blur-lg bg-black"
         >
-          <div className="w-4/5 lg:w-1/2">
-            <p className="w-fit p-4 text-center my-2 border border-white border-solid rounded shadow-xs shadow-white text-white">
+          <div className="w-4/5 lg:w-1/2 -translate-y-4 lg:translate-y-0">
+            <p className="w-fit text-xs lg:text-base p-2 lg:p-4 my-2 border border-white border-solid rounded shadow-xs shadow-white text-white">
               Get started with querying the spacex data
             </p>
             <div className="relative">
@@ -28,7 +28,7 @@ export default function Home() {
               <SpacexIcon className="blur-md absolute top-0 left-0 w-full" />
             </div>
           </div>
-          <div className="animate-bounce absolute bottom-10 bg-white dark:bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-900/5 dark:ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
+          <div className="animate-bounce absolute bottom-10 bg-slate-800 p-2 w-10 h-10 ring-1 ring-slate-200/20 shadow-lg rounded-full flex items-center justify-center">
             <svg
               className="w-6 h-6 text-white"
               fill="none"
